@@ -16,7 +16,12 @@
     color: var(--white);
     display: flex;
     margin: 1rem 0;
+    opacity: 0.56;
     text-decoration: none;
+}
+
+.menu__item--active {
+    opacity: 1;
 }
 
 .menu__item:hover {
@@ -25,17 +30,16 @@
 
 .menu__icon {
     align-items: center;
-    background-color: var(--blue-300);
+    background-color: rgba(80, 129, 251, 0.16);
     border-radius: 1rem;
     display: flex;
     height: 3rem;
     justify-content: center;
-    opacity: 0.16;
     width: 3rem;
 }
 
 .menu__icon--active {
-    opacity: 1;
+    background-color: var(--blue-300);
 }
 
 .menu__description {
