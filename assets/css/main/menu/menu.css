@@ -12,9 +12,15 @@
 }
 
 .menu__item {
-    display: flex;
     align-items: center;
+    color: var(--white);
+    display: flex;
     margin: 1rem 0;
+    text-decoration: none;
+}
+
+.menu__item:hover {
+    text-decoration: underline;
 }
 
 .menu__icon {
@@ -33,11 +39,5 @@
 }
 
 .menu__description {
-    color: white;
-    text-decoration: none;
     margin: 1rem;
-}
-
-.menu__description:hover {
-    text-decoration: underline;
 }
