@@ -18,4 +18,5 @@
 body {
     background-color: var(--dark-blue);
     font-family: 'Inter', sans-serif;
+    margin: 2rem;
 }

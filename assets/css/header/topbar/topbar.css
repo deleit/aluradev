@@ -1,0 +1,38 @@
+.topbar {
+    display: grid;
+    grid-template-columns: 1fr 2.75fr 1fr;
+    column-gap: 2.5rem;
+}
+
+.topbar__logo {
+    padding-right: 0.75rem;
+    justify-self: left;
+    align-self: center;
+}
+
+.topbar__searchbar {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.topbar__input {
+    background-color: rgba(255, 255, 255, 0.16);
+    border: 0px;
+    border-radius: 8px;
+    color: var(--white);
+    padding: 1rem;
+    width: 100%;
+}
+
+.topbar__author {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0.75rem;
+}
+
+.topbar__name {
+    color: var(--white);
+    margin-left: 0.5rem;
+}

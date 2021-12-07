@@ -11,13 +11,9 @@
     <link rel="stylesheet" href="./assets/css/normalize.css">
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="stylesheet" href="./assets/css/header/topbar.css">
-    <link rel="stylesheet" href="./assets/css/header/topbar-logo.css">
-    <link rel="stylesheet" href="./assets/css/header/topbar-searchbar.css">
-    <link rel="stylesheet" href="./assets/css/header/topbar-input.css">
-    <link rel="stylesheet" href="./assets/css/header/topbar-author.css">
-    <link rel="stylesheet" href="./assets/css/header/topbar-profilepic.css">
-    <link rel="stylesheet" href="./assets/css/header/topbar-name.css">
+    <link rel="stylesheet" href="./assets/css/header/topbar/topbar.css">
+    <link rel="stylesheet" href="./assets/css/main/main.css">
+    <link rel="stylesheet" href="./assets/css/main/menu/menu.css">
     <title>Alura Dev</title>
 </head>
 
@@ -34,6 +30,27 @@
             </div>
         </section>
     </header>
+
+    <main class="main">
+        <nav class="menu">
+            <h2 class="menu__title">Menu</h2>
+            <ul class="menu__items">
+                <li class="menu__item">
+                    <div class="menu__icon menu__icon--active">
+                        <img src="./assets/img/editor.svg">
+                    </div>
+                    <a class="menu__description" href="#">Editor de código</a>
+                </li>
+                <li class="menu__item">
+                    <div class="menu__icon">
+                        <img src="./assets/img/comunidade.svg">
+                    </div>
+                    <a class="menu__description" href="#">Comunidade</a>
+                </li>
+            </ul>
+        </nav>
+    </main>
+
 </body>
 
 </html>
