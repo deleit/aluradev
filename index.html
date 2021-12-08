@@ -7,13 +7,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Roboto+Mono:wght@400;700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/normalize.css">
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/base.css">
     <link rel="stylesheet" href="./assets/css/header/topbar/topbar.css">
     <link rel="stylesheet" href="./assets/css/main/main.css">
     <link rel="stylesheet" href="./assets/css/main/menu/menu.css">
+    <link rel="stylesheet" href="./assets/css/main/code-editor/code-editor.css">
     <title>Alura Dev</title>
 </head>
 
@@ -53,6 +56,19 @@
                 </li>
             </ul>
         </nav>
+
+        <section class="code-editor">
+            <div class="code-editor__background">
+                <div class="code-editor__container">
+                    <div class="code-editor__topbar">
+                        <div class="code-editor__circle code-editor__circle--red"></div>
+                        <div class="code-editor__circle code-editor__circle--yellow"></div>
+                        <div class="code-editor__circle code-editor__circle--green"></div>
+                    </div>
+                    <textarea class="code-editor__textarea" rows="13" spellcheck="false"></textarea>
+                </div>
+            </div>
+        </section>
     </main>
 
 </body>

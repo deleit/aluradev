@@ -17,7 +17,7 @@
 }
 
 .topbar__input {
-    background-color: rgba(255, 255, 255, 0.16);
+    background-color: var(--textbar-gray);
     border: 0px;
     border-radius: 8px;
     color: var(--white);

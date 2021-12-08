@@ -30,7 +30,7 @@
 
 .menu__icon {
     align-items: center;
-    background-color: rgba(80, 129, 251, 0.16);
+    background-color: var(--blue-300-inactive);
     border-radius: 1rem;
     display: flex;
     height: 3rem;
