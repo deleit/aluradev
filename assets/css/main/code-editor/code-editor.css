@@ -56,3 +56,17 @@
 .code-editor__textarea:focus {
     outline: none;
 }
+
+.code-editor__highlight-btn {
+    background-color: var(--blue-300-inactive);
+    border: none;
+    border-radius: 8px;
+    color: var(--white);
+    margin-top: 2rem;
+    padding: 1rem;
+}
+
+.code-editor__highlight-btn:hover {
+    background-color: var(--blue-300);
+    cursor: pointer;
+}
