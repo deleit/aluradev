@@ -1,0 +1,19 @@
+.project__form {
+    display: flex;
+    flex-direction: column;
+}
+
+.project__title, .project__description {
+    background-color: var(--textbar-gray);
+    box-sizing: border-box;
+    color: var(--white);
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+    padding: 1rem;
+    resize: none;
+}
+
+.project__title {
+    margin: 1rem 0;
+}

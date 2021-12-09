@@ -1,0 +1,9 @@
+.options-menu {
+    color: var(--white);
+    display: flex;
+    flex-direction: column;
+    font-size: 0.75rem;
+    letter-spacing: 0.4em;
+    line-height: 1.125rem;
+    text-transform: uppercase;
+}
