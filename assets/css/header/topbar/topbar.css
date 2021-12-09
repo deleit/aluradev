@@ -25,11 +25,27 @@
     width: 100%;
 }
 
+.topbar__input:hover {
+    background-color: var(--textbar-gray-hover);
+}
+
 .topbar__author {
     display: flex;
     align-items: center;
     justify-content: flex-end;
+    
+}
+
+.topbar__link {
+    display: flex;
+    align-items: center;
     padding: 0.75rem;
+    text-decoration: none;
+}
+
+.topbar__link:hover {
+    background-color: var(--background-hover);
+    border-radius: 8px;
 }
 
 .topbar__name {

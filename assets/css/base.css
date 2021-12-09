@@ -3,13 +3,22 @@
     --blue-100: #96B9FD;
     --blue-200: #7BA4FC;
     --blue-300: #5081FB;
-    --blue-300-inactive: rgba(80, 129, 251, 0.16);
+    --blue-300-inactive: rgba(80, 129, 251, 0.08);
+    --blue-300-hover: rgba(80, 129, 251, 0.16);
+    --blue-300-focus: rgba(80, 129, 251, 0.24);
+    --menu-hover: rgba(80, 129, 251, 0.64);
     --dark-blue: #051D3B;
+    --save-btn-hover: #7BA4FC;
+    --save-btn-border: rgba(80, 129, 251, 0.72);
+    --save-btn-focus: #96B9FD;
     
     /* neutral */
     --dark-gray: #141414;
+    --background-hover: rgba(255, 255, 255, 0.08);
     --textbar-gray: rgba(255, 255, 255, 0.16);
+    --textbar-gray-hover: rgba(255, 255, 255, 0.24);
     --white: #FFFFFF;
+    --off-white: rgba(255, 255, 255, 0.64);
 
     /* mac */
     --mac_green: #27C93F;

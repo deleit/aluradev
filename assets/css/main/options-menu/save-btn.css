@@ -8,6 +8,14 @@
 }
 
 .save-btn:hover {
-    color: var(--white);
+    background-color: var(--save-btn-hover);
     cursor: pointer;
+}
+
+.save-btn:active {
+    border: 4px solid var(--save-btn-border);
+}
+
+.save-btn:focus {
+    background-color: var(--save-btn-focus);
 }

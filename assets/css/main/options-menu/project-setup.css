@@ -20,6 +20,10 @@
     width: 100%;
 }
 
+.project__title:hover, .project__description:hover {
+    background-color: var(--textbar-gray-hover);
+}
+
 .project__title {
     margin: 1rem 0;
 }

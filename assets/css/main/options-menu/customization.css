@@ -9,13 +9,17 @@
     border: none;
     border-radius: 8px;
     box-sizing: border-box;
-    color: rgba(255, 255, 255, 0.64);
+    color: var(--off-white);
     font-size: 1rem;
     line-height: 1.5rem;
     margin-top: 1rem;
     padding: 1rem;
     resize: none;
     width: 100%;
+}
+
+.customization__language:hover {
+    background-color: var(--textbar-gray-hover);
 }
 
 .customization__option {

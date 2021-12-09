@@ -20,12 +20,21 @@
     text-decoration: none;
 }
 
-.menu__item--active {
+.menu__item:hover {
+    opacity: 0.72;
+}
+
+.menu__item:hover > .menu__icon {
+    background-color: var(--menu-hover);
+}
+
+.menu__item--active, .menu__item--active:hover {
     opacity: 1;
 }
 
-.menu__item:hover {
-    text-decoration: underline;
+.menu__item--active:hover > .menu__icon--active {
+    background-color: var(--blue-300);
+    
 }
 
 .menu__icon {
