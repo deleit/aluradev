@@ -17,8 +17,15 @@
     --mac_red: #FF5F56;
 }
 
+html {
+    display: flex;
+    justify-content: center;
+}
+
 body {
     background-color: var(--dark-blue);
     font-family: 'Inter', sans-serif;
     margin: 2rem;
+    max-width: 1440px;
+    width: 100%;
 }
