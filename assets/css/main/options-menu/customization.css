@@ -1,0 +1,33 @@
+.customization__form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2.5rem;
+}
+
+.customization__language {
+    background-color: var(--textbar-gray);
+    border: none;
+    border-radius: 8px;
+    box-sizing: border-box;
+    color: rgba(255, 255, 255, 0.64);
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin-top: 1rem;
+    padding: 1rem;
+    resize: none;
+    width: 100%;
+}
+
+.customization__option {
+    background-color: var(--dark-blue);
+}
+
+.customization__color {
+    background-color: var(--dark-blue);
+    border: 1px solid var(--white);
+    border-radius: 8px;
+    margin-top: 1rem;
+    padding: 0.5rem;
+    height: 3.5rem;
+    width: 100%;
+}

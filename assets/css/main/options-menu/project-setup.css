@@ -1,3 +1,7 @@
+.project-setup {
+    margin-bottom: 2.5rem;
+}
+
 .project__form {
     display: flex;
     flex-direction: column;
@@ -5,13 +9,15 @@
 
 .project__title, .project__description {
     background-color: var(--textbar-gray);
-    box-sizing: border-box;
-    color: var(--white);
-    width: 100%;
     border: none;
     border-radius: 8px;
+    box-sizing: border-box;
+    color: var(--white);
+    font-size: 1rem;
+    line-height: 1.5rem;
     padding: 1rem;
     resize: none;
+    width: 100%;
 }
 
 .project__title {

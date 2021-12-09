@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="./assets/css/main/code-editor/code-editor.css">
     <link rel="stylesheet" href="./assets/css/main/options-menu/options-menu.css">
     <link rel="stylesheet" href="./assets/css/main/options-menu/project-setup.css">
+    <link rel="stylesheet" href="./assets/css/main/options-menu/customization.css">
     <title>Alura Dev</title>
 </head>
 
@@ -79,6 +80,19 @@
                 <form class="project__form">
                     <input type="text" class="project__title" placeholder="Nome do seu projeto">
                     <textarea rows="2" class="project__description" placeholder="Descrição do seu projeto"></textarea>
+                </form>
+            </div>
+
+            <div class="customization">
+                <h2 class="customization__title">Personalização</h2>
+                <form class="customization__form">
+                    <select name="languages" id="languages" class="customization__language">
+                        <option class="customization__option" value="javascript">Javascript</option>
+                        <option class="customization__option" value="java">Java</option>
+                        <option class="customization__option" value="csharp">C#</option>
+                        <option class="customization__option" value="python">Python</option>
+                    </select>
+                    <input type="color" name="bg-color" id="bg-color" value="#6BD1FF" class="customization__color">
                 </form>
             </div>
         </section>
