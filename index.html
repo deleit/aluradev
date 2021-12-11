@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/base.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
-    <link rel="stylesheet" href="./assets/css/header/topbar/topbar.css">
+    <link rel="stylesheet" href="./assets/css/header/topbar.css">
     <link rel="stylesheet" href="./assets/css/main/main.css">
     <link rel="stylesheet" href="./assets/css/main/menu/menu.css">
     <link rel="stylesheet" href="./assets/css/main/code-editor/code-editor.css">
@@ -26,28 +26,26 @@
 </head>
 
 <body>
-    <header class="header">
-        <section class="topbar">
-            <img src="./assets/img/Logo.svg" alt="Logo da Alura Dev" class="topbar__logo">
-            <form class="topbar__searchbar">
-                <input type="text" class="topbar__input" placeholder="Busque por algo">
-            </form>
-            <div class="topbar__author" href="#">
-                <a href="https://github.com/deleit" class="topbar__link" target="_blank">
-                    <img src="https://avatars.githubusercontent.com/u/48402769" alt="" class="topbar__profilepic">
-                    <span class="topbar__name">deleit</span>
-                </a>
-            </div>
+    <header class="topbar">
+        <img src="./assets/img/Logo.svg" alt="Logo da Alura Dev" class="topbar__logo">
+        <form class="topbar__searchbar">
+            <input type="text" class="topbar__input" placeholder="Busque por algo">
+        </form>
+        <div class="topbar__author">
+            <a href="https://github.com/deleit" class="topbar__link" target="_blank">
+                <img src="https://avatars.githubusercontent.com/u/48402769" alt="" class="topbar__profilepic">
+                <span class="topbar__name">deleit</span>
+            </a>
+        </div>
 
-            <div class="topbar__hamburger">
-                <div class="topbar__search-icon">
-                    <i class="fa fas fa-search"></i>
-                </div>
-                <div class="topbar__menu">
-                    <i class="fas fa-bars"></i>
-                </div>
+        <div class="topbar__hamburger">
+            <div class="topbar__search-icon">
+                <i class="fa fas fa-search"></i>
             </div>
-        </section>
+            <div class="topbar__menu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
     </header>
 
     <main class="main">

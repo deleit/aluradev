@@ -1,11 +1,11 @@
 .main {
     column-gap: 2.5rem;
     display: grid;
-    grid-template-columns: 1fr 2.75fr 1fr;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 2.75fr) minmax(0, 1fr);
     margin-top: 2.5rem;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 834px) {
     .main {
         grid-template-columns: 1fr;
     }

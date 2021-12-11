@@ -1,7 +1,7 @@
 .topbar {
     display: grid;
     column-gap: 2.5rem;
-    grid-template-columns: 1fr 2.75fr 1fr;
+    grid-template-columns: minmax(0, 1fr) 2.75fr minmax(0, 1fr);
 }
 
 .topbar__logo {
@@ -66,7 +66,7 @@
     display: none;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 834px) {
     .topbar {
         display: flex;
     }
