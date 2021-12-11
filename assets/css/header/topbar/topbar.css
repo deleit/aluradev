@@ -36,6 +36,12 @@
     
 }
 
+.topbar__profilepic {
+    height: 2rem;
+    width: 2rem;
+    border-radius: 100%;
+}
+
 .topbar__link {
     align-items: center;
     display: flex;
