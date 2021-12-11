@@ -54,3 +54,9 @@
 .menu__description {
     margin: 1rem;
 }
+
+@media (max-width: 768px) {
+    .menu {
+        display: none;
+    }
+}

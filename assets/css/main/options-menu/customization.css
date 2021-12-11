@@ -23,7 +23,7 @@
 }
 
 .customization__option {
-    background-color: var(--dark-blue);
+    background-color: #2d415b;
 }
 
 .customization__color {
@@ -34,4 +34,18 @@
     padding: 0.5rem;
     height: 3.5rem;
     width: 100%;
+}
+
+@media (max-width: 768px) {
+    .customization__form {
+        flex-direction: row;
+    }
+
+    .customization__language {
+        margin-right: 0.5rem;
+    }
+
+    .customization__color {
+        margin-left: 0.5rem;
+    }
 }
