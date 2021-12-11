@@ -44,7 +44,7 @@
     display: flex;
     height: 3rem;
     justify-content: center;
-    width: 3rem;
+    min-width: 3rem;
 }
 
 .menu__icon--active {
@@ -53,6 +53,7 @@
 
 .menu__description {
     margin: 1rem;
+    margin-right: 0;
 }
 
 @media (max-width: 768px) {

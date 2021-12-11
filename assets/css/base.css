@@ -38,3 +38,9 @@ body {
     max-width: 1440px;
     width: 100%;
 }
+
+@media (max-width: 480px) {
+    body {
+        margin: 1rem;
+    }
+}
