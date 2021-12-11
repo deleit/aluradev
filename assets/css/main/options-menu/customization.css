@@ -49,3 +49,13 @@
         margin-left: 0.5rem;
     }
 }
+
+@media (max-width: 480px) {
+    .customization__form {
+        flex-direction: column;
+    }
+
+    .customization__language, .customization__color {
+        margin: 1rem 0 0 0;
+    }
+}

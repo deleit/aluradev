@@ -1,13 +1,13 @@
 .topbar {
     display: grid;
-    grid-template-columns: 1fr 2.75fr 1fr;
     column-gap: 2.5rem;
+    grid-template-columns: 1fr 2.75fr 1fr;
 }
 
 .topbar__logo {
-    padding-right: 0.75rem;
-    justify-self: left;
     align-self: center;
+    justify-self: left;
+    padding-right: 0.75rem;
 }
 
 .topbar__searchbar {
@@ -30,15 +30,15 @@
 }
 
 .topbar__author {
-    display: flex;
     align-items: center;
+    display: flex;
     justify-content: flex-end;
     
 }
 
 .topbar__link {
-    display: flex;
     align-items: center;
+    display: flex;
     padding: 0.75rem;
     text-decoration: none;
 }
@@ -51,6 +51,10 @@
 .topbar__name {
     color: var(--white);
     margin-left: 0.5rem;
+}
+
+.topbar__search-icon {
+    display: none;
 }
 
 .topbar__menu {
@@ -69,15 +73,18 @@
     .topbar__author {
         display: none;
     }
+    
+    .topbar__search-icon {
+        display: none;
+    }
 
     .topbar__menu {
-        display: flex;
+        align-items: center;
         border-radius: 16px;
-        width: 3rem;
+        display: flex;
         height: 3rem;
         justify-content: center;
-        align-items: center;
-        
+        width: 3rem;
     }
     
     .topbar__menu:hover {
@@ -92,6 +99,54 @@
     .fa-bars {
         color: var(--white);
         font-size: 2.5rem;
+        line-height: 1.5rem;
+        padding: 0.75rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .topbar {
+        justify-content: space-between;
+    }
+
+    .topbar__hamburger {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .topbar__searchbar {
+        display: none;
+    }
+
+    .topbar__search-icon {
+        align-items: center;
+        border-radius: 16px;
+        display: flex;
+        height: 3rem;
+        justify-content: center;
+        margin: 0 2rem;
+        width: 3rem;
+    }
+
+    .fa-bars {
+        color: var(--white);
+        font-size: 1.5rem;
+        line-height: 1.5rem;
+        padding: 0.75rem;
+    }
+
+    .topbar__search-icon:hover {
+        cursor: pointer;
+        background: var(--blue-300-inactive);
+    }
+
+    .topbar__search-icon:active {
+        background: var(--blue-300-hover);
+    }
+
+    .fa-search {
+        color: var(--white);
+        font-size: 1.5rem;
         line-height: 1.5rem;
         padding: 0.75rem;
     }
