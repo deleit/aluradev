@@ -46,7 +46,7 @@
     transition: 0.2s;
 }
 
-@media (max-width: 834px) {
+@media (max-width: 972px) {
     .customization__form {
         flex-direction: row;
     }

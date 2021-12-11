@@ -59,7 +59,7 @@
     margin-right: 0;
 }
 
-@media (max-width: 834px) {
+@media (max-width: 972px) {
     .menu {
         display: none;
     }

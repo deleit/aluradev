@@ -29,7 +29,7 @@
     margin: 1rem 0;
 }
 
-@media (max-width: 834px) {
+@media (max-width: 972px) {
     .project-setup {
         margin-top: 2.5rem;
     }
