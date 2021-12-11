@@ -69,6 +69,7 @@
 .code-editor__highlight-btn:hover {
     background-color: var(--blue-300-hover);
     cursor: pointer;
+    transition: 0.2s;
 }
 
 .code-editor__highlight-btn:active {

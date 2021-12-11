@@ -22,6 +22,7 @@
 
 .project__title:hover, .project__description:hover {
     background-color: var(--textbar-gray-hover);
+    transition: 0.2s;
 }
 
 .project__title {

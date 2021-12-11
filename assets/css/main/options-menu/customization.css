@@ -24,6 +24,7 @@
 
 .customization__language:hover {
     background-color: var(--textbar-gray-hover);
+    transition: 0.2s;
 }
 
 .customization__option {
@@ -38,6 +39,11 @@
     padding: 0.5rem;
     height: 3.5rem;
     width: 100%;
+}
+
+.customization__color:hover {
+    background-color: var(--blue-300-focus);
+    transition: 0.2s;
 }
 
 @media (max-width: 834px) {

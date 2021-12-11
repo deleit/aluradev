@@ -10,6 +10,7 @@
 .save-btn:hover {
     background-color: var(--save-btn-hover);
     cursor: pointer;
+    transition: 0.2s;
 }
 
 .save-btn:active {

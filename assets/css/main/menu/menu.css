@@ -22,19 +22,22 @@
 
 .menu__item:hover {
     opacity: 0.72;
+    transition: 0.2s;
 }
 
 .menu__item:hover > .menu__icon {
     background-color: var(--menu-hover);
+    transition: 0.2s;
 }
 
 .menu__item--active, .menu__item--active:hover {
     opacity: 1;
+    transition: 0.2s;
 }
 
 .menu__item--active:hover > .menu__icon--active {
     background-color: var(--blue-300);
-    
+    transition: 0.2s;
 }
 
 .menu__icon {

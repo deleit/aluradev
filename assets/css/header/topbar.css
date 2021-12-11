@@ -27,6 +27,7 @@
 
 .topbar__input:hover {
     background-color: var(--textbar-gray-hover);
+    transition: 0.2s;
 }
 
 .topbar__author {
@@ -51,6 +52,7 @@
 .topbar__link:hover {
     background-color: var(--background-hover);
     border-radius: 8px;
+    transition: 0.2s;
 }
 
 .topbar__name {
