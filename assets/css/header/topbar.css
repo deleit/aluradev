@@ -68,7 +68,7 @@
     display: none;
 }
 
-@media (max-width: 972px) {
+@media (max-width: 980px) {
     .topbar {
         display: flex;
     }
@@ -105,7 +105,7 @@
 
     .fa-bars {
         color: var(--white);
-        font-size: 2.5rem;
+        font-size: 1.5rem;
         line-height: 1.5rem;
         padding: 0.75rem;
     }
@@ -133,13 +133,6 @@
         justify-content: center;
         margin: 0 0.5em;
         width: 3rem;
-    }
-
-    .fa-bars {
-        color: var(--white);
-        font-size: 1.5rem;
-        line-height: 1.5rem;
-        padding: 0.75rem;
     }
 
     .topbar__search-icon:hover {
