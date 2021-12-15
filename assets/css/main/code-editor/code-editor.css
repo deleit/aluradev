@@ -45,6 +45,7 @@
     background-color: var(--dark-gray);
     border: none;
     border-radius: 0 0 8px 8px;
+    box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.24);
     color: var(--white);
     font-family: 'Roboto mono', monospace;
     font-size: 0.875rem;
