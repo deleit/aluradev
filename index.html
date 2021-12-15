@@ -74,7 +74,7 @@
         </nav>
 
         <section class="code-editor">
-            <div class="code-editor__background">
+            <div class="code-editor__background" id="bg-color">
                 <div class="code-editor__container">
                     <div class="code-editor__topbar">
                         <div class="code-editor__circle code-editor__circle--red"></div>
@@ -105,7 +105,8 @@
                         <option class="customization__option" value="csharp">C#</option>
                         <option class="customization__option" value="python">Python</option>
                     </select>
-                    <input type="color" name="bg-color" id="bg-color" value="#6BD1FF" class="customization__color">
+                    <input type="color" name="bg-color-selector" id="bg-color-selector" value="#6BD1FF"
+                        class="customization__color">
                 </form>
             </div>
 
@@ -113,6 +114,7 @@
         </section>
     </main>
 
+    <script src="./assets/js/index.js"></script>
 </body>
 
 </html>
