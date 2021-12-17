@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/base.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.3.1/styles/default.min.css">
     <link rel="stylesheet" href="./assets/css/header/topbar.css">
     <link rel="stylesheet" href="./assets/css/main/main.css">
     <link rel="stylesheet" href="./assets/css/main/menu/menu.css">
@@ -22,6 +23,7 @@
     <link rel="stylesheet" href="./assets/css/main/options-menu/project-setup.css">
     <link rel="stylesheet" href="./assets/css/main/options-menu/customization.css">
     <link rel="stylesheet" href="./assets/css/main/options-menu/save-btn.css">
+    <link rel="stylesheet" href="./assets/css/hljs.css">
     <title>AluraDEV</title>
 </head>
 
@@ -81,10 +83,13 @@
                         <div class="code-editor__circle code-editor__circle--yellow"></div>
                         <div class="code-editor__circle code-editor__circle--green"></div>
                     </div>
-                    <textarea class="code-editor__textarea" rows="13" spellcheck="false"></textarea>
+                    <div class="code-editor__wrapper">
+                        <code class="code-editor__textarea hljs" id="code-editor" spellcheck="false"
+                            contenteditable="true"></code>
+                    </div>
                 </div>
             </div>
-            <button class="code-editor__highlight-btn">Visualizar com o highlight</button>
+            <button class="code-editor__highlight-btn" id="highlight-btn">Visualizar com o highlight</button>
         </section>
 
         <section class="options-menu">
@@ -114,6 +119,7 @@
         </section>
     </main>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.3.1/highlight.min.js"></script>
     <script src="./assets/js/index.js"></script>
 </body>
 
